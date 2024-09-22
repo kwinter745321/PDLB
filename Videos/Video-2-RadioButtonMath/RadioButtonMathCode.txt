@@ -1,0 +1,28 @@
+''
+Sub INIT()
+    sum = 0
+End Sub
+''
+Sub MAIN()
+    sum = PICK(CtrlVal(RBADD),CtrlVal(RBMULT))
+End Sub
+''
+FUNCTION ADD(A,B)
+    ADD = A + B
+END FUNCTION
+''
+FUNCTION MULT(A,B)
+    MULT = A * B
+END FUNCTION
+''
+FUNCTION PICK(op1%,op2%)
+    PICK = 0
+    IF op1% = 1 THEN
+        PICK=ADD(CtrlVal(VALUEA),CtrlVal(VALUEB))
+    ENDIF
+    IF op2% = 1 THEN 
+        PICK=MULT(CtrlVal(VALUEA),CtrlVal(VALUEB))
+    ENDIF
+END FUNCTION
+
+

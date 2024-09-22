@@ -1,0 +1,11 @@
+{'BackgroundColor':'black','ForegroundColor':'white','Fontsize':'3','Fontscale':'1','Lastsave':'2024-09-20 14:30:46','Code':'RadioButtonMathCode.txt','Controls-Max':'85','FirstRef':'1','Kit':'1.0','Workspace':'C:/WorkspacePDLB','Project':'Video2','File':'RadioButtonMath.src','Note':'notepad.exe','Addon':'C:/MMedit5/MMEdit.exe','AddonTarget':'BAS',}
+{'Ref':'1','Setup':'0','Name':'VALUEA','StartX':'66','StartY':'183','Width':'100','Height':'40','FColour':'cyan','BColour':'black','Tool':'NumberBox','Default':'2',}
+{'Ref':'2','Setup':'0','Name':'VALUEB','StartX':'66','StartY':'254','Width':'100','Height':'40','FColour':'cyan','BColour':'black','Tool':'NumberBox','Default':'3',}
+{'Ref':'3','Setup':'0','Name':'','Caption':'Operation','StartX':'237','StartY':'122','Width':'280','Height':'250','Colour':'cyan','Tool':'Frame',}
+{'Ref':'4','Setup':'0','Name':'RBADD','Caption':'Add','StartX':'286','StartY':'170','Radius':'20','Colour':'green','Tool':'Radio','Default':'1',}
+{'Ref':'5','Setup':'0','Name':'RBMULT','Caption':'Multiply','StartX':'291','StartY':'259','Radius':'20','Colour':'green','Tool':'Radio','Default':'0',}
+{'Ref':'6','Setup':'0','Name':'TOTAL','StartX':'627','StartY':'210','Width':'150','Height':'40','FColour':'cyan','BColour':'black','Tool':'DisplayBox','Value':'str$(sum)',}
+{'Ref':'7','Setup':'0','Name':'','Text':'A','StartX':'37','StartY':'196','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'8','Setup':'0','Name':'','Text':'B','StartX':'37','StartY':'269','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'9','Setup':'0','Name':'','Text':'Total','StartX':'547','StartY':'227','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'10','Setup':'0','Name':'','Text':'RadioButton Math','StartX':'266','StartY':'42','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
