@@ -1,0 +1,6 @@
+{'BackgroundColor':'black','ForegroundColor':'white','Fontsize':'3','Fontscale':'1','Lastsave':'2024-09-23 09:48:17','Code':'','Controls-Max':'85','FirstRef':'1','Kit':'1.0','Workspace':'C:/WorkspacePDLB','Project':'Video3','File':'CheckBoxDisplay.src','Note':'notepad.exe','Addon':'C:/MMedit5/MMEdit.exe','AddonTarget':'BAS',}
+{'Ref':'1','Setup':'0','Name':'','Caption':'Checkbox Demo','StartX':'255','StartY':'104','Width':'300','Height':'244','Colour':'cyan','Tool':'Frame',}
+{'Ref':'2','Setup':'0','Name':'','Caption':'CB1','StartX':'310','StartY':'158','Size':'30','FColour':'white','Tool':'CheckBox','Default':'0',}
+{'Ref':'3','Setup':'0','Name':'','Caption':'CB2','StartX':'310','StartY':'218','Size':'30','FColour':'white','Tool':'CheckBox','Default':'0',}
+{'Ref':'4','Setup':'0','Name':'','Caption':'CB3','StartX':'308','StartY':'276','Size':'30','FColour':'white','Tool':'CheckBox','Default':'0',}
+{'Ref':'5','Setup':'0','Name':'','StartX':'255','StartY':'416','Width':'300','Height':'40','FColour':'cyan','BColour':'black','Tool':'DisplayBox','Value':'msg$',}

@@ -1,0 +1,11 @@
+''
+Sub INIT()
+End Sub
+''
+Sub MAIN()
+  msg$ = ""
+  if CtrlVal(#2) = 1 then msg$ = msg$ + "CB1 "
+  if CtrlVal(#3) = 1 then msg$ = msg$ + "CB2 "
+  if CtrlVal(#4) = 1 then msg$ = msg$ + "CB3 "
+End Sub
+
