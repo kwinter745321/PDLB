@@ -17,6 +17,22 @@ Release 1.0.1.
 
 Contains the improvements to Examples and a minor fix to the Setup Control.
 
+# Update 01 December 2024
+
+Release 1.0.2
+
+Changed from Python 3.9 to Python 3.11. 3.11 is faster and more current.
+
+# Procedure to follow when updating
+
+first time invoking the program cuses the program to open the folder browser.
+1. Locate your Workspace folder with mouse (.e.g. WorkspacePDLB ) and click Select Folder button.  
+2. From FILE, click Open Project menu item.
+3. Locate a project Folder and clict Select Folder button.
+4. From File, click Open Source File from, and click Select button.
+
+- NOTE: A project pust have WorkSpace + Project + source-File-name.... before you can generate a BAS file or push it to MMEdit.
+
 
 
 # Wiring for InfoTwoPage program
