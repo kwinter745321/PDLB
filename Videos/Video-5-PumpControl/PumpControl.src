@@ -1,0 +1,28 @@
+{'BackgroundColor':'black','ForegroundColor':'white','Fontsize':'3','Fontscale':'1','Lastsave':'2024-12-02 16:59:32','Code':'code.bas','Controls-Max':'85','FirstRef':'1','Kit':'1.0','Workspace':'C:/WorkspacePDLB','Project':'Video5','File':'PumpControl.src','Note':'notepad.exe','Addon':'C:/MMedit5/MMEdit.exe','AddonTarget':'BAS',}
+{'Ref':'1','Setup':'0','Name':'c_head','Text':'Pump Control','StartX':'10','StartY':'0','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'2','Setup':'0','Name':'c_pmp','Text':'Pump','StartX':'20','StartY':'60','Alignment':'LT','FColour':'brown','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'3','Setup':'0','Name':'sw_pmp','Caption':'ON|OFF','StartX':'20','StartY':'90','Width':'150','Height':'50','FColour':'white','BColour':'brown','Tool':'Switch','Default':'1',}
+{'Ref':'4','Setup':'0','Name':'c_flow','Text':'Flow Rate','StartX':'20','StartY':'170','Alignment':'LT','FColour':'brown','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'5','Setup':'0','Name':'tb_flow','StartX':'20','StartY':'200','Width':'150','Height':'45','FColour':'brown','BColour':'black','Tool':'DisplayBox','Value':'"20.1"',}
+{'Ref':'6','Setup':'0','Name':'frm_pump','Caption':'Power','StartX':'17','StartY':'288','Width':'170','Height':'163','Colour':'#c8c8ff','Tool':'Frame',}
+{'Ref':'7','Setup':'0','Name':'r_econ','Caption':'Economy','StartX':'40','StartY':'318','Radius':'15','Colour':'lightgrey','Tool':'Radio','Default':'',}
+{'Ref':'8','Setup':'0','Name':'r_norm','Caption':'Normal','StartX':'40','StartY':'364','Radius':'15','Colour':'lightgrey','Tool':'Radio','Default':'1',}
+{'Ref':'9','Setup':'0','Name':'r_hi','Caption':'High','StartX':'40','StartY':'408','Radius':'15','Colour':'lightgrey','Tool':'Radio','Default':'',}
+{'Ref':'10','Setup':'0','Name':'frm_alarm','Caption':'Alarm','StartX':'220','StartY':'220','Width':'200','Height':'233','Colour':'green','Tool':'Frame',}
+{'Ref':'11','Setup':'0','Name':'c_hi','Text':'High','StartX':'232','StartY':'260','Alignment':'LT','FColour':'yellow','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'12','Setup':'0','Name':'nbr_hi','StartX':'315','StartY':'257','Width':'90','Height':'42','FColour':'yellow','BColour':'black','Tool':'NumberBox','Default':'35.5',}
+{'Ref':'13','Setup':'0','Name':'c_lo','Text':'Low','StartX':'232','StartY':'325','Alignment':'LT','FColour':'yellow','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'14','Setup':'0','Name':'nbr_lo','StartX':'314','StartY':'324','Width':'90','Height':'42','FColour':'yellow','BColour':'black','Tool':'NumberBox','Default':'15.7',}
+{'Ref':'15','Setup':'0','Name':'pb_test','Caption':'TEST','StartX':'254','StartY':'380','Width':'130','Height':'40','FColour':'yellow','BColour':'red','Tool':'Button','Default':'',}
+{'Ref':'16','Setup':'0','Name':'led_run','Caption':'Running','StartX':'237','StartY':'87','Diameter':'15','Colour':'Green','Tool':'LED','Value':'CtrlVal(sw_pmp)',}
+{'Ref':'17','Setup':'0','Name':'led_alarm','Caption':'Alarm','StartX':'239','StartY':'144','Diameter':'15','Colour':'red','Tool':'LED','Value':'',}
+{'Ref':'18','Setup':'0','Name':'frm_log','Caption':'Log File','StartX':'450','StartY':'20','Width':'330','Height':'355','Colour':'green','Tool':'Frame',}
+{'Ref':'19','Setup':'0','Name':'c_fname','Text':'File Name','StartX':'470','StartY':'105','Alignment':'LT','FColour':'cyan','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'20','Setup':'0','Name':'tb_fname','StartX':'466','StartY':'137','Width':'290','Height':'40','FColour':'cyan','BColour':'black','Tool':'TextBox','Default':'"LOGFILE.TXT"',}
+{'Ref':'21','Setup':'0','Name':'cb_enabled','Caption':'Logging Enabled','StartX':'468','StartY':'47','Size':'30','FColour':'cyan','Tool':'CheckBox','Default':'1',}
+{'Ref':'22','Setup':'0','Name':'c_log','Text':'Record:','StartX':'470','StartY':'205','Alignment':'LT','FColour':'cyan','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'23','Setup':'0','Name':'cb_flow','Caption':'Flow Rate','StartX':'500','StartY':'245','Size':'25','FColour':'cyan','Tool':'CheckBox','Default':'',}
+{'Ref':'24','Setup':'0','Name':'cb_alarm','Caption':'Alarms','StartX':'500','StartY':'285','Size':'25','FColour':'cyan','Tool':'CheckBox','Default':'',}
+{'Ref':'25','Setup':'0','Name':'cb_warn','Caption':'Warnings','StartX':'500','StartY':'325','Size':'25','FColour':'cyan','Tool':'CheckBox','Default':'',}
+{'Ref':'26','Setup':'0','Name':'c_bright','Text':'Backlight','StartX':'441','StartY':'420','Alignment':'LT','FColour':'#c8c8ff','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'27','Setup':'0','Name':'sb_bright','StartX':'580','StartY':'400','Width':'200','Height':'50','FColour':'#c8c8ff','BColour':'black','Step':'10','Minimum':'10','Maximum':'100','Tool':'SpinBox','Default':'50',}

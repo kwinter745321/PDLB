@@ -1,0 +1,32 @@
+{'BackgroundColor':'black','ForegroundColor':'white','Fontsize':'3','Fontscale':'1','Lastsave':'2024-09-17 10:14:17','Code':'InfoTwoPageCode.txt','Controls-Max':'85','FirstRef':'1','Kit':'1.0','Workspace':'C:/Users/winter/Documents/Workspace_PDLB','Project':'examples','File':'InfoTwoMinor.src','Note':'notepad.exe','Addon':'notepad.exe','AddonTarget':'NONE',}
+{'Ref':'1','Setup':'1','Name':'','Title':'Page 1','StartX':'675','StartY':'25','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Setup','FirstRef':'2',}
+{'Ref':'2','Setup':'1','Name':'','Caption':'Onboard Devices','StartX':'160','StartY':'90','Width':'500','Height':'300','Colour':'yellow','Tool':'Frame',}
+{'Ref':'3','Setup':'1','Name':'','Text':'BTN1','StartX':'196','StartY':'131','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'4','Setup':'1','Name':'','Text':'BTN2','StartX':'197','StartY':'184','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'5','Setup':'1','Name':'','Text':'POT1','StartX':'196','StartY':'234','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'6','Setup':'1','Name':'','Text':'LED1','StartX':'200','StartY':'280','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'7','Setup':'1','Name':'CVNEXTPAGE','Caption':'Next Page','StartX':'524','StartY':'400','Width':'250','Height':'50','FColour':'black','BColour':'gold','Tool':'Button','Default':'',}
+{'Ref':'8','Setup':'1','Name':'CVBTN1','Text':'btn1','StartX':'394','StartY':'130','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'showPress(btn1)',}
+{'Ref':'9','Setup':'1','Name':'CVBTN2','Text':'btn2','StartX':'398','StartY':'185','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'ShowPress(btn2)',}
+{'Ref':'10','Setup':'1','Name':'CVPOT1','Text':'pot1','StartX':'399','StartY':'234','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'str$(pot1,4,2)',}
+{'Ref':'11','Setup':'1','Name':'','Text':'LED2','StartX':'200','StartY':'330','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'12','Setup':'1','Name':'CVLED1','Text':'led1','StartX':'396','StartY':'278','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'ShowOnOff(led1)',}
+{'Ref':'13','Setup':'1','Name':'CVLED2','Text':'led2','StartX':'399','StartY':'335','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'ShowOnOff(led2)',}
+{'Ref':'14','Setup':'2','Name':'','Title':'Page 2','StartX':'675','StartY':'25','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Setup','FirstRef':'15',}
+{'Ref':'15','Setup':'2','Name':'','Caption':'Choose Output Action','StartX':'141','StartY':'56','Width':'600','Height':'85','Colour':'yellow','Tool':'Frame',}
+{'Ref':'16','Setup':'2','Name':'','Caption':'Choose Output Action','StartX':'144','StartY':'192','Width':'600','Height':'85','Colour':'yellow','Tool':'Frame',}
+{'Ref':'17','Setup':'2','Name':'','Caption':'Choose Hi alarm','StartX':'146','StartY':'309','Width':'600','Height':'80','Colour':'yellow','Tool':'Frame',}
+{'Ref':'18','Setup':'2','Name':'BTN1_NONE','Caption':'None','StartX':'200','StartY':'79','Radius':'20','Colour':'green','Tool':'Radio','Default':'1',}
+{'Ref':'19','Setup':'2','Name':'BTN1_LED1','Caption':'LED1','StartX':'425','StartY':'76','Radius':'20','Colour':'green','Tool':'Radio','Default':'0',}
+{'Ref':'20','Setup':'2','Name':'BTN1_LED2','Caption':'LED2','StartX':'600','StartY':'75','Radius':'20','Colour':'green','Tool':'Radio','Default':'0',}
+{'Ref':'21','Setup':'2','Name':'BTN2_NONE','Caption':'None','StartX':'200','StartY':'214','Radius':'20','Colour':'green','Tool':'Radio','Default':'1',}
+{'Ref':'22','Setup':'2','Name':'BTN2_LED1','Caption':'LED1','StartX':'425','StartY':'210','Radius':'20','Colour':'green','Tool':'Radio','Default':'0',}
+{'Ref':'23','Setup':'2','Name':'BTN2_LED2','Caption':'LED2','StartX':'600','StartY':'211','Radius':'20','Colour':'green','Tool':'Radio','Default':'0',}
+{'Ref':'24','Setup':'2','Name':'POT1_NONE','Caption':'None','StartX':'200','StartY':'327','Radius':'20','Colour':'green','Tool':'Radio','Default':'1',}
+{'Ref':'25','Setup':'2','Name':'POT1_20','Caption':'2.0','StartX':'370','StartY':'328','Radius':'20','Colour':'green','Tool':'Radio','Default':'0',}
+{'Ref':'26','Setup':'2','Name':'POT1_25','Caption':'2.5','StartX':'493','StartY':'329','Radius':'20','Colour':'green','Tool':'Radio','Default':'0',}
+{'Ref':'27','Setup':'2','Name':'POT1_30','Caption':'3.0','StartX':'619','StartY':'328','Radius':'20','Colour':'green','Tool':'Radio','Default':'0',}
+{'Ref':'28','Setup':'2','Name':'CVHOMEPAGE','Caption':'Return to Home','StartX':'519','StartY':'404','Width':'250','Height':'50','FColour':'black','BColour':'gold','Tool':'Button','Default':'',}
+{'Ref':'29','Setup':'2','Name':'','Text':'BTN1','StartX':'31','StartY':'89','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'30','Setup':'2','Name':'','Text':'BTN2','StartX':'31','StartY':'216','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
+{'Ref':'31','Setup':'2','Name':'','Text':'POT1','StartX':'31','StartY':'333','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}

@@ -1,0 +1,129 @@
+''
+Sub INIT()
+    Const FALSE = 0
+    Const TRUE = 1
+    SetPin GP17, DIN
+    SetPin GP21, DIN
+    SetPin GP26, AIN
+    SetPin GP27, DOUT
+    SetPin GP28, DOUT
+    ''
+    btn1_action = 0
+    btn2_action = 0
+    btn3_action = 0
+    limit = 4
+End Sub
+'' 
+Sub Devices()
+    btn1=Pin(GP17)
+    btn2=Pin(GP21)
+    pot1=Pin(GP26)
+    led1=Pin(GP27)
+    led2=Pin(GP28)
+End sub
+
+Sub MAIN()
+    if Touch(REF) = CVNEXTPAGE then Page 2
+    if Touch(REF) = CVHOMEPAGE then Page 1
+    Devices()
+    UpdateRadioBtn()
+    DeviceUpdate()
+    Action()
+End Sub
+
+Sub Action()
+    if pot1_action > 0 then
+        btn1_action = 0
+        btn2_action = 0
+        CtrlVal(BTN1_NONE) = 1
+        CtrlVal(BTN2_NONE) = 1
+        GUI DISABLE BTN1_NONE,BTN1_LED1,BTN1_LED2
+        GUI DISABLE BTN2_NONE,BTN2_LED1,BTN2_LED2
+    else
+        GUI ENABLE BTN1_NONE,BTN1_LED1,BTN1_LED2
+        GUI ENABLE BTN2_NONE,BTN2_LED1,BTN2_LED2
+    endif
+End Sub
+
+Sub UpdateRadioBtn()
+    if Touch(REF) = BTN1_NONE then btn1_action = 0
+    if Touch(REF) = BTN1_LED1 then btn1_action = 1
+    if Touch(REF) = BTN1_LED2 then btn1_action = 2
+    if Touch(REF) = BTN2_NONE then btn2_action = 0
+    if Touch(REF) = BTN2_LED1 then btn2_action = 1
+    if Touch(REF) = BTN2_LED2 then btn2_action = 2
+    if Touch(REF) = POT1_NONE then pot1_action = 0
+    if Touch(REF) = POT1_20 then pot1_action = 1
+    if Touch(REF) = POT1_25 then pot1_action = 2
+    if Touch(REF) = POT1_30 then pot1_action = 3
+    'print btn1_action,btn2_action,pot1_action
+End Sub
+
+Sub DeviceUpdate()
+    if btn1 = 0 then
+        Perform_BTN1(1)
+    else
+        Perform_BTN1(0)
+    endif
+    if btn2 = 0 then
+        Perform_BTN2(1)
+    else
+        Perform_BTN2(0)
+    endif
+    if pot1_action > 0 then
+        SetLimit_POT1()
+        CtrlVal(#10) = str$(pot1,4,2)
+    endif
+End Sub
+
+Sub Perform_BTN1(val)
+    Select Case btn1_action
+        Case 0
+            'do nothing
+        Case 1
+            Pin(GP27) = val
+        Case 2
+            Pin(GP28) = val
+    End Select
+End Sub
+
+Sub Perform_BTN2(val)
+    Select Case btn2_action
+        Case 0
+            'do nothing
+        Case 1
+            Pin(GP27) = val
+        Case 2
+            Pin(GP28) = val
+    End Select
+End Sub
+
+Sub SetLimit_POT1(val)
+    Select Case pot1_action
+        Case 0
+            limit = 4.0
+        Case 1
+            limit = 2.0
+        Case 2
+            limit = 2.5
+        Case 3
+            limit = 3.0
+    End Select
+    if pot1 >= limit then
+        Pin(GP28) = 1
+        GUI FColour RGB(pink),CVPOT1
+    else
+        Pin(GP28) = 0
+        GUI FColour RGB(white),CVPOT1
+    endif
+End Sub
+
+Function ShowPress(val) as String
+    if val = 0 then ShowPress = "Pressed"
+    if val = 1 then ShowPress = "-------"
+End Function
+
+Function ShowOnOff(val) as String
+    if val = 1 then ShowOnOff = "ON"
+    if val = 0 then ShowOnOff = "OFF"
+End Function
