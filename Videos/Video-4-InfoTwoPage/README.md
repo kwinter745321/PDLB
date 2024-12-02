@@ -2,8 +2,8 @@
 
 InforTwoPage
 
-This program demostrates the Setup (mulitple page) feature of the PicoMite advanced graphics.
-Additionally, theprogram uses an innovative way to configure the PushButtons (consistent with MMasic approach.)
+This program demonstrates the Setup Control (multiple page) feature of the PicoMite advanced graphics.
+Additionally, the program uses an interesting way to configure the Push Buttons (consistent with MMBasic approach.)
 
 # Files
 
