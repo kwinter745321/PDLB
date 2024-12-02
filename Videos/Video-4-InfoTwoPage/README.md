@@ -1,5 +1,10 @@
 # README.md - InfoTwoPage
 
+InforTwoPage
+
+This program demostrates the Setup (mulitple page) feature of the PicoMite advanced graphics.
+Additionally, theprogram uses an innovative way to configure the PushButtons (consistent with MMasic approach.)
+
 # Files
 
 This directory holds the InfoTowPage demonstration files.
