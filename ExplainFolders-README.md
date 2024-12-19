@@ -47,7 +47,7 @@ This means the application will display the current workspace and project direct
 
 When you restart the application, You can edit "PumpControl.src":
 - Open Recently Saved File <u>(Note: not working currently)</u>
-- Open Source File from (use the wizard to sekect it)
+- Open Source File from (use the wizard to select it)
 
 
 # Workspace Environment
