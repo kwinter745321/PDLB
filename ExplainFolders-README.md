@@ -97,7 +97,7 @@ The source file contains a statement for global-property and every GUI object on
 {'Ref':'7','Setup':'0','Name':'','Text':'Display items checked:','StartX':'258','StartY':'377','Alignment':'LT','FColour':'white','BColour':'black','Tool':'Caption','Value':'',}
 ```
 
-The first line is a dictionary that list of all of the global property fields.  Subsequent lines are dictionary statements (one line) for each GUI object.
+The first line is a dictionary that lists of all of the global property fields.  Subsequent lines are dictionary statements (one line) for each GUI object.
 
 One could edit this text file, then open it within PDLB. When PDLB opens a "src" file it reads each statement and adds the item as a GUI object to the canvas.  The "Ref" key is the MMBasic reference name of the GUI object. 
 
